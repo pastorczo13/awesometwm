@@ -1,5 +1,5 @@
 ---------------------------
--- Default awesome theme --
+OMlx Theme
 ---------------------------
 
 local theme_assets = require("beautiful.theme_assets")
@@ -13,27 +13,27 @@ local theme = {}
 
 theme.font          = "sans 12"
 
-theme.bg_normal     = "#222222"
+theme.bg_normal     = "#21242b"
 theme.bg_focus      = "#535d6c"
-theme.bg_urgent     = "#ff0000"
-theme.bg_minimize   = "#444444"
+theme.bg_urgent     = "#cc2263"
+theme.bg_minimize   = "#606167"
 theme.bg_systray    = theme.bg_normal
 
-theme.fg_normal     = "#aaaaaa"
-theme.fg_focus      = "#ffffff"
-theme.fg_urgent     = "#ffffff"
-theme.fg_minimize   = "#ffffff"
+theme.fg_normal     = "#ffffff"
+theme.fg_focus      = "#ecf2ff"
+theme.fg_urgent     = "#40a5da"
+theme.fg_minimize   = "#d8d8d8"
 
 theme.useless_gap   = dpi(0)
 theme.border_width  = dpi(1)
-theme.border_normal = "#000000"
-theme.border_focus  = "#535d6c"
-theme.border_marked = "#91231c"
+theme.border_normal = "#21242b"
+theme.border_focus  = "#535dc6"
+theme.border_marked = "#cc2263"
 
-theme.taglist_fg_focus    = "#3992af"
-theme.taglist_fg_occupied = "#164b5d"
-theme.taglist_fg_urgent   = "#ED7572"
-theme.taglist_fg_empty    = "#828282"
+theme.taglist_fg_focus    = "#2080bb"
+theme.taglist_fg_occupied = "#005c9d"
+theme.taglist_fg_urgent   = "#61c583"
+theme.taglist_fg_empty    = "#40a5da"
 theme.taglist_spacing     = 2
 theme.taglist_font = "debrosee 13"
 
