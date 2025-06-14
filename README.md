@@ -3,6 +3,6 @@ These are streetturtles awesome wm-widgets. You will also need the debrosee font
 
 create a folder in ~/.config and name it awesome and put the rc.lua file in that
 
-theme.lua goes into folder /usr/share/awesome/themes/OpenMandriva (replace file in that folder)
+theme.lua goes into folder .config/awesome/mytheme/(replace file in that folder)
 
 create a folder in ~/.config name it alacritty and put the alacritty.toml file in that
