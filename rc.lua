@@ -50,7 +50,7 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init(gears.filesystem.get_configuration_dir() .. "mytheme/theme.lua")
+beautiful.init(gears.filesystem.get_themes_dir() .. "OpenMandriva/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "alacritty"
@@ -246,7 +246,8 @@ globalkeys = gears.table.join(
               {description = "view next", group = "tag"}),
     awful.key({ modkey,           }, "Escape", awful.tag.history.restore,
               {description = "go back", group = "tag"}),
-  
+    
+
      awful.key({ modkey,           }, "j",
         function ()
             awful.client.focus.byidx( 1)
@@ -348,7 +349,7 @@ globalkeys = gears.table.join(
     awful.key({}, "XF86AudioRaiseVolume", function () volume_widget.inc()  end),
     awful.key({}, "XF86AudioLowerVolume", function () volume_widget.dec()  end),
     awful.key({}, "XF86AudioMute", function () volume_widget.toggle() end)
-
+    
    
 )
 
@@ -592,5 +593,5 @@ beautiful.useless_gap = 3
 --Autostart
 awful.spawn.with_shell("steam")
 awful.spawn.with_shell("flatpak run com.discordapp.Discord")
-awful.spawn.with_shell("feh --bg-scale /home/lorenzo/Pictures/om-feelsgood.png")
+awful.spawn.with_shell("feh --bg-scale /home/lorenzo/Pictures/om-dream-1.png")
 awful.spawn.with_shell("flatpak run im.riot.Riot")
