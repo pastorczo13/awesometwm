@@ -1,0 +1,42 @@
+# OpenMandriva
+
+# Default colors
+[colors.primary]
+background = '#21242b'
+foreground = '#ffffff'
+
+dim_foreground = '#d8d8d8'
+bright_foreground = '#40a5da'
+
+# Normal colors
+[colors.normal]
+black = '#232627'
+red = '#cc2263'
+green = '#40da76'
+yellow = '#da7340'
+blue = '#2080bb'
+magenta = '#a740da'
+cyan = '#61c583'
+white = '#afb3bd'
+
+# Bright colors
+[colors.bright]
+black = '#767676'
+red = '#e2266e'
+green = '#4bff8a'
+yellow = '#dac040'
+blue = '#40a5da'
+magenta = '#c14afd'
+cyan = '#72e69a'
+white = '#ecf2ff'
+
+# Dim colors
+[colors.dim]
+black = '#505050'
+red = '#871742'
+green = '#2a904e'
+yellow = '#b45d35'
+blue = '#005c9d'
+magenta = '#005c9d'
+cyan = '#38714b'
+white = '#606167'
